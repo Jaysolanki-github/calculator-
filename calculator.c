@@ -35,7 +35,7 @@ int main() {
         printf("#: Cube of a number\n");
         printf("i: Inverse of a number\n");
         
-        printf("Enter operation: ");
+        printf("Enter operation:");
         scanf(" %c", &operation);
 
         switch (operation) {
@@ -74,7 +74,7 @@ int main() {
             case 'i':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("1/%d",a);
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
